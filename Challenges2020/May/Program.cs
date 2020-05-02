@@ -6,7 +6,12 @@ namespace May
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string J = "z";
+            string S = "ZZ";
+
+            int c = Problem_2.CountJewels(J, S);
+
+            Console.WriteLine(c);
         }
     }
 }
