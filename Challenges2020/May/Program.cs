@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace May
 {
@@ -6,10 +7,10 @@ namespace May
     {
         static void Main(string[] args)
         {
-            string J = "z";
-            string S = "ZZ";
+            string J = "";
+            string S = "abcdbaghj";
 
-            int c = Problem_2.CountJewels(J, S);
+            bool c = Problem_3.CanConstruct(J, S);
 
             Console.WriteLine(c);
         }
