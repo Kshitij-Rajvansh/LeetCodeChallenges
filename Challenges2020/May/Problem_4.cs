@@ -15,5 +15,21 @@ namespace  May
             Explanation: The binary representation of 5 is 101 (no leading zero bits),
             and its complement is 010. So you need to output 2.
         */
+
+        // Solution starts
+        public static int FindComplement(int num)
+        {
+            int numWithAllSetBits = 0;
+            int bitsIndex = 0;
+
+            while(numWithAllSetBits < num)
+            {
+                numWithAllSetBits += (int)Math.Pow(2, bitsIndex);
+                bitsIndex++;
+            }
+
+            return numWithAllSetBits - num;
+        }
+        // Solution ends
     }    
 }

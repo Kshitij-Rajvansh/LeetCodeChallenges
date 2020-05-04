@@ -7,10 +7,7 @@ namespace May
     {
         static void Main(string[] args)
         {
-            string J = "";
-            string S = "abcdbaghj";
-
-            bool c = Problem_3.CanConstruct(J, S);
+            int c = Problem_4.FindComplement(6);
 
             Console.WriteLine(c);
         }
