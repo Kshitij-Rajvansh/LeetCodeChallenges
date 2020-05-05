@@ -7,7 +7,7 @@ namespace May
     {
         static void Main(string[] args)
         {
-            int c = Problem_4.FindComplement(6);
+            int c = Problem_5.FirstUniqueCharacter("leetcode");
 
             Console.WriteLine(c);
         }
